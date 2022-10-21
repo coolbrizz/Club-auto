@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "displayFare";
+    src: url("/desktop/police/PlayfairDisplay-Bold.ttf") format("truetype");
+}
+:root {
+    --darkGrey : #1b2727;
+    --white : #ffffff;
+    --orange : #ff6600;
+    --lightBlue : #66a3ff;
+    --black : #000000;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: var(--darkGrey) ;
+    color : var(--white);
+    }
+#mainHeader strong{
+    color : var(--orange);
+    font-weight: bold;
+}
+#mainHeader .topNav h1 {
+    font-size : 2.5em;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 30px;
+}
+#mainHeader .topNav{
+    padding : 20px;
+}
+#mainHeader .topNav a
+{
+    text-decoration: none;
+    color: #ffffff;
+    border-color: var(--white); 
+    border : solid 1px;
+    border-radius: 100%;
+    padding :10px;
+    margin : 10px;
+    background : rgba(27, 39, 39, 0.5);
+}
+.topNav ul{
+    display :grid;
+grid-template-columns: 30% 15% 15% 15% 15%;
+column-gap: 10px;
+    color : var(--white);
+   
+    }
+nav a {
+    color: inherit; 
+    text-decoration : none;
+    list-style: none;   
+ }
+
+#logoTelephone, #logoAdresse {
+    width : 40px;
+    padding-right: 5px;
+    float : left;
+    display : flex;
+}
+.mainNav ul{
+    padding: 20px;
+    font-weight: bold;
+    display : flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    opacity : 0.7;
+    padding-left: 1200px;
+    padding-right: 450px;
+    
+}
+.mainNav a{ 
+    padding: 17px;
+    color: #000000;
+}
+.mainNav a:hover {
+    color: #ffffff;
+    background-color: #ff6600;
+}
+.mainNav{
+    background-image: url(/images/vehicule1.jpg);
+    background-size: cover;
+    height : 850px;
+}
+#mainHeader .titre{
+    font-size : 2.5em;
+    text-align: center;
+    font-weight: bold;
+    padding : 20px;
+}
+
+
