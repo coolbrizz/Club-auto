@@ -1,93 +1,192 @@
 @font-face {
-    font-family: "displayFare";
-    src: url("/desktop/police/PlayfairDisplay-Bold.ttf") format("truetype");
-}
-:root {
-    --darkGrey : #1b2727;
-    --white : #ffffff;
-    --orange : #ff6600;
-    --lightBlue : #66a3ff;
-    --black : #000000;
-}
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-header {
-    background-color: var(--darkGrey) ;
-    color : var(--white);
-    }
-#mainHeader strong{
-    color : var(--orange);
-    font-weight: bold;
-}
-#mainHeader .topNav h1 {
-    font-size : 2.5em;
-    text-align: end;
-    font-weight: bold;
-    padding-right: 30px;
-}
-#mainHeader .topNav{
-    padding : 20px;
-}
-#mainHeader .topNav a
-{
-    text-decoration: none;
-    color: #ffffff;
-    border-color: var(--white); 
-    border : solid 1px;
-    border-radius: 100%;
-    padding :10px;
-    margin : 10px;
-    background : rgba(27, 39, 39, 0.5);
-}
-.topNav ul{
-    display :grid;
-grid-template-columns: 30% 15% 15% 15% 15%;
-column-gap: 10px;
-    color : var(--white);
-   
-    }
-nav a {
-    color: inherit; 
-    text-decoration : none;
-    list-style: none;   
- }
+    font-family: "opensans";
+    src: url("/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
 
-#logoTelephone, #logoAdresse {
-    width : 40px;
-    padding-right: 5px;
-    float : left;
-    display : flex;
+    font-family: "Montserrat";
+    src: url("/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
-.mainNav ul{
+
+h1 {
+    justify-content: center;
+}
+
+:root {
+    --darkGrey: #232628;
+    --white: #ffffff;
+    --orange: #cc6119;
+    --lightBlue: #6c98e1;
+    --black: #000000;
+}
+
+body {
+    font-family: 'opensans', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+h2,
+h1,
+h3 {
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.text,
+p {
+    color: grey;
+}
+
+/** Mise en forme de l'entete accueil**/
+#mainHeader {
+    background-color: var(--darkGrey);
+    color: var(--white);
+}
+
+strong {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.navbar {
+    background: #ffffffab;
+}
+
+#logoTelephone,
+#logoAdresse {
+    width: 40px;
+    padding-right: 5px;
+    float: left;
+    display: flex;
+}
+
+.mainNav ul {
     padding: 20px;
     font-weight: bold;
-    display : flex;
+    display: flex;
     justify-content: space-around;
-    background-color: #ffffff;
-    opacity : 0.7;
-    padding-left: 1200px;
-    padding-right: 450px;
-    
+    background-color: #ffffff00;
+    opacity: 0.7;
+
 }
-.mainNav a{ 
-    padding: 17px;
+
+.nav-item a {
+    font-size: 1.5em;
     color: #000000;
 }
-.mainNav a:hover {
-    color: #ffffff;
+
+.nav-item a:hover {
+
     background-color: #ff6600;
 }
-.mainNav{
-    background-image: url(/images/vehicule1.jpg);
+
+.backgroundAccueil {
+    background: url(/images/vehicule1.jpg) no-repeat 50% 50%;
     background-size: cover;
-    height : 850px;
+    height: 650px;
 }
-#mainHeader .titre{
-    font-size : 2.5em;
+
+#mainHeader .titre {
+    font-size: 2.5em;
     text-align: center;
     font-weight: bold;
-    padding : 20px;
+    padding: 20px;
+}
+
+/** Fin Mise en forme de l'entete accueil**/
+
+/** Mise en forme page accueil**/
+
+.article3 {
+    background-image: url(/images/vente-location.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.article6 {
+    background-image: url(/images/vehicule3.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.box {
+    padding-top: 80px;
+}
+
+.article4 {
+    background: rgb(27, 39, 39);
+}
+
+.box1 {
+    background: rgba(240, 173, 78, 0.9);
+}
+
+.box2 {
+    background: rgba(217, 83, 79, 0.8);
+}
+
+.clients {
+    height: 400px;
+}
+
+.entretien {
+    height: 400px;
+}
+
+.price {
+    background: rgba(27, 39, 39, 0.8);
+}
+
+.icone {
+    height: 70px;
+}
+
+.footer {
+    background: rgb(27, 39, 39);
+    justify-content: center;
+}
+
+.fa {
+    background-color: rgba(27, 39, 39, 0.8);
+    color: white;
+    border-color: var(--white);
+    border: solid 1px;
+    margin: 2px;
+}
+
+.input-group-prepend {
+    border-radius: 1px;
+}
+
+.form-control {
+    border-radius: 15px;
+}
+
+/** Fin mise en forme page accueil**/
+
+
+/**Mise en forme du contact**/
+.contact {
+    position: absolute;
+    top: 250px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.form-control {
+    border-radius: 0;
+    width: 100%;
+    background-color: rgb(222, 247, 255);
 }
 
 
+.backgroundContact {
+    background: url(/images/vehicule3.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.background {
+    background: url(/images/vente-location.jpg) no-repeat 50%;
+    background-size: cover;
+    height: 200px;
+}
+
+/**Fin Mise en forme du contact**/
