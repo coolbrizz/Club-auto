@@ -204,9 +204,6 @@ background: #ffffff;
  z-index: -1;
  font-weight: normal;
 }
-.vehicle{
-    border-top: solid 1px black;
-}
 .backgroundVente{
     background: url(/images/vente-location.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -217,4 +214,29 @@ background: #ffffff;
 padding-top: 50px;
 padding-left: 200px;
 text-transform: uppercase;
+}
+.price{
+    padding: 10px;
+    color: #ffffff;
+    background: #6c98e1;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.btnFilter{
+    background: lightgrey;
+    border-radius: 0px;
+    border : none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.containerSearch{
+    border : solid 1px black;
+}
+.searchTitle{
+    background :#232628;
+}
+.searchTitle img{
+height: 40px;
+
 }
