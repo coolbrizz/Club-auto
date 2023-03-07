@@ -197,6 +197,8 @@ strong {
 /* Mise en forme de la page de vente*/
 .vehiculeVente{
     height: 200px;
+    position: relative;
+    display: inline-block;
 }
 .alert-link{
 background: #ffffff;
@@ -223,7 +225,7 @@ text-transform: uppercase;
     padding-left: 30px;
 }
 .btnFilter{
-    background: lightgrey;
+    background: rgb(175, 243, 254);
     border-radius: 0px;
     border : none;
     padding: 10px;
@@ -231,12 +233,36 @@ text-transform: uppercase;
     padding-right: 20px;
 }
 .containerSearch{
-    border : solid 1px black;
+    top: -30px;
+    right: 10%;
+border-radius: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .searchTitle{
     background :#232628;
+    border-radius: 1px;
 }
 .searchTitle img{
 height: 40px;
-
 }
+.priceSmall{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) { 
+    .containerSearch{
+justify-content: center;
+        right : 0%;
+width : 280px;
+margin: auto;
+    };
+    .vehicleText{
+        border-top: solid 1px lightgray;
+    };
+    .priceSmall{
+        display: block;
+        position: absolute;
+        color: #ffffff;
+        font-weight: bold;
+    };
+ }

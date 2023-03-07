@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/bfeafd957d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="nbe.css">
+        <title>Club auto</title>
+    </head>
+    <body>
+        <header id="mainHeader">
+            <div class="container-fluid">
+                <div class="row topNav p-1 pt-4 pb-4">
+                    <div class="col-lg-3 col-md-12 fw-bold h1 text-right font-weight-bold pr-5">CLUB AUTO</H1></div>
+                    <div class="col-lg-3 d-none d-lg-block"><img src="/images/icone-adresse.png" alt="logo adresse" id="logoAdresse"><strong>ADRESSE : </strong></br>AVENUE CHARLES DE GAULLE</BR>75000 PARIS</div>
+                    <div class="col-lg-2 col-md-12 fw-bold "><img src="/images/icon-telephone.png" alt="logo Téléphone" id="logoTelephone"><strong>TELEPHONE : </strong></br> 01 23 45 67 89 </div>
+                    <div class="col-lg-2 d-none d-lg-block fw-bold "><strong>OUVERTURE :</strong>  Du Lundi au Samedi </br><strong>HORAIRES :</strong>  De 9h à 17h</div>
+                    <div class="col-lg-2 d-none d-lg-block"><a href="#" class="fa fa-facebook"></a> <a href="#" class="fa -brands fa-twitter"></a></div>
+                </div>
+             </div>
+    <nav class="container-fluid p-0 mainNav">
+        <div class="backgroundVente"> 
+            <nav class="navbar col-12 navbar-expand-lg navbar-light ">
+                <div class="container-fluid offset-xl-6 offset-md-2 d-none d-lg-block p-2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item col-2">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
+                      </li>
+                      <li class="nav-item col-2">
+                        <a class="nav-link" href="/Vente.html">Vente</a>
+                      </li>
+                      <li class="nav-item col-2">
+                        <a class="nav-link" href="/location.html">Location</a>
+                      </li>
+                      <li class="nav-item col-2">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>  
+              <h1 class="titreVente">LOCATION</h1>
+        </div>         
+    </nav>
+
+    </header>
+    <section>
+        <div class="containerSearch col-lg-12 float-xl-right  col-xl-2 p-0">
+            <div class="container m-0 p-0">
+                <div class="searchTitle row font-weight-bold m-0 p-4">
+                    <img src="/images/icone-voiture.png" id="searchCar" alt="logo searchCar">
+                    <p class="pl-2 pt-2 text-white">Rechercher</p>
+                </div>
+                <div class="inputSearch">
+                    <div>   <button class="btnFilter col-10 ml-4 mt-3 text-left dropdown-toggle" type="button" data-toggle="dropdown" >Type</button></div>
+                    <div>    <button class="btnFilter col-10 ml-4 mt-3 text-left  dropdown-toggle" type="button" data-toggle="dropdown" >Carburant</button></div>
+                    <div>    <button class="btnFilter col-10 ml-4 mt-3 text-left  dropdown-toggle" type="button" data-toggle="dropdown" >Marque</button></div>
+                    <div>   <button class="btnFilter col-10 ml-4 mt-3 text-left  dropdown-toggle" type="button" data-toggle="dropdown" >Modèle</button></div>
+                    <div>   <button class="btnFilter col-10 ml-4 mt-3 text-left  dropdown-toggle" type="button" data-toggle="dropdown" >Kilométrage maximal</button></div>
+                    <div>    <button class="btnFilter col-10 ml-4 mt-3 text-left  dropdown-toggle" type="button" data-toggle="dropdown" >Ancienneté</button></div>
+                </div>
+                <div class="inputPrice text-center pt-4">
+                    <p>Prix</p>
+                    <div class="range-container  pt-2 col-12">
+                        <input type="range" id="password-length" min="2000" max="80000" value="2000"
+                          oninput="document.getElementById('display-password-length').value=this.value">
+                      </div>
+                      <div class="range row  ml-3 col-12 pt-3">
+                        <input type="text" class="col-5 mr-2 text-center" id="display-password-length" value="2000" readonly>
+                        <input type="text" class="col-5 ml-2 text-center" id="display-password-length2" value="80000" readonly>
+                       </div>
+                </div>
+                <div class="button col-12 pt-5 ml-1 p-4">
+                    <button class="btn btn-primary col-12">Réinitialiser</button>
+                </div>
+            </div>
+        </div>
+        <div class="containerFilter">
+            <div class="filter row offset-2 pt-4 pb-3">
+                <p class="m-2">ORDRE :</p>
+                <button class="btnFilter  dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prix :   Croissant    </button>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="containerVehicle">
+                <div class="vehicle">
+                    <div class="row">
+                        <div class="offset-2 border-top pt-5 p-3 pr-2">
+                            <img src="/images/vehicule2.jpg" alt="Audi A1" class="vehiculeVente"/><div class="priceSmall p-2 bg-primary ">20€/jour</div>
+                        </div>
+                        <div class="vehicleText col-12 col-md-4 text-center pt-5 pb-5">
+                            <div class="marque row p-1">
+                                <h1 class="h5 font-weight-bold">BMW 535I, NAVI,LEATHER, ABS</h1>
+                                <div class="price offset-xl-1 d-none d-xl-block bg-primary ">20€/jour</div>
+                            </div>
+                            <p class="text pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem cupiditate rerum magni natus dolore corporis sapiente voluptatum dolor sequi minima commodi illum consequuntur quod soluta ut quis vel sint qui, odio possimus quasi? Expedita consequuntur dicta</p>
+                            <a href="#" class="alert-link alert-dark text-center"> >>En savoir plus<< </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="vehicle">
+                    <div class="row">
+                        <div class="offset-2 border-top pt-5 p-3 pr-2">
+                            <img src="/images/vehicule2.jpg" alt="Audi A1" class="vehiculeVente"/><div class="priceSmall p-2 bg-primary ">20€/jour</div>
+                        </div>
+                        <div class="vehicleText col-12 col-md-4 text-center pt-5 pb-5">
+                            <div class="marque row p-1">
+                                <h1 class="h5 font-weight-bold">BMW 535I, NAVI,LEATHER, ABS</h1>
+                                <div class="price offset-xl-1 d-none d-xl-block bg-primary ">20€/jour</div>
+                            </div>
+                            <p class="text pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem cupiditate rerum magni natus dolore corporis sapiente voluptatum dolor sequi minima commodi illum consequuntur quod soluta ut quis vel sint qui, odio possimus quasi? Expedita consequuntur dicta</p>
+                            <a href="#" class="alert-link alert-dark text-center"> >>En savoir plus<< </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="vehicle">
+                    <div class="row">
+                        <div class="offset-2 border-top pt-5 p-3 pr-2">
+                            <img src="/images/vehicule2.jpg" alt="Audi A1" class="vehiculeVente"/><div class="priceSmall p-2 bg-primary ">20€/jour</div>
+                        </div>
+                        <div class="vehicleText col-12 col-md-4 text-center pt-5 pb-5">
+                            <div class="marque row p-1">
+                                <h1 class="h5 font-weight-bold">BMW 535I, NAVI,LEATHER, ABS</h1>
+                                <div class="price offset-xl-1 d-none d-xl-block bg-primary ">20€/jour</div>
+                            </div>
+                            <p class="text pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem cupiditate rerum magni natus dolore corporis sapiente voluptatum dolor sequi minima commodi illum consequuntur quod soluta ut quis vel sint qui, odio possimus quasi? Expedita consequuntur dicta</p>
+                            <a href="#" class="alert-link alert-dark text-center"> >>En savoir plus<< </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="vehicle">
+                    <div class="row">
+                        <div class="offset-2 border-top pt-5 p-3 pr-2">
+                            <img src="/images/vehicule2.jpg" alt="Audi A1" class="vehiculeVente"/><div class="priceSmall p-2 bg-primary ">20€/jour</div>
+                        </div>
+                        <div class="vehicleText col-12 col-md-4 text-center pt-5 pb-5">
+                            <div class="marque row p-1">
+                                <h1 class="h5 font-weight-bold">BMW 535I, NAVI,LEATHER, ABS</h1>
+                                <div class="price offset-xl-1 d-none d-xl-block bg-primary ">20€/jour</div>
+                            </div>
+                            <p class="text pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem cupiditate rerum magni natus dolore corporis sapiente voluptatum dolor sequi minima commodi illum consequuntur quod soluta ut quis vel sint qui, odio possimus quasi? Expedita consequuntur dicta</p>
+                            <a href="#" class="alert-link alert-dark text-center"> >>En savoir plus<< </a>
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+        <footer>
+            <div class="container-fluid ">
+                <div class="footer row pt-5 ">
+                    <div class="d-inline col-md-5 col-xl-2 pt-1 p-3">
+                        <h3 class="h5 fw-bold  text-white pb-2"><span class="text-primary">CLUB</span> AUTO</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis nihil quas a ea vero.</p>
+                    </div>
+                    <div class="d-inline  col-md-5 col-xl-2 pt-1 p-3">
+                        <h3 class="h5 fw-bold  text-white pb-2">HORAIRE D'OUVERTURE</h3>
+                        <p>Lundi - Samedi : <span class="text-white">09:00 - 17:00</span></br>Dimanche et jours fériés : <span class="text-white">Fermé</span></p>
+                    </div>
+                    <div class="d-inline col-md-5 col-xl-2 pt-1 p-3">
+                        <h3 class="h5 fw-bold   text-white pb-2">NEWSLETTER</h3>
+                        <div class="input-group mb-3">                    
+                            <input type="text" class="form-control" placeholder="Entrez votre email" aria-label="email" aria-describedby="basic-addon1">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text bg-warning" id="fa fa-rss"><span class="fa fa-rss"></span></span>
+                                </div>
+                        </div>
+                                <p class="p-1">Inscrivez vous pour recevoir les dernières offres</p>
+                    </div>
+                            <div class="d-inline col-md-5 col-xl-2 pt-1 p-3">
+                                <h3 class="h5 fw-bold   text-white pb-2">RESEAUX SOCIAUX</h3>
+                                <a href="#" class="fa fa-facebook p-3"></a> 
+                                <a href="#" class="fa -brands fa-twitter p-3"></a>
+                                <a href="#" class="fa -brands fa-instagram p-3"></a>
+                                <a href="#" class="fa -brands fa-google p-3"></a>
+                                <a href="#" class="fa -brands fa-youtube p-3"></a>
+                            </div>
+                        </div>
+        
+                </div>
+                <div class="copyright">Copyright @ Club Auto - Tous droits réservés</div>
+            </div>    
+        </footer>
+</html>
