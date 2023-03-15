@@ -53,7 +53,7 @@ strong {
 #logoTelephone,
 #logoAdresse {
     width: 40px;
-    padding-right: 5px;
+    padding-right: 10px;
     float: left;
     display: flex;
 }
@@ -73,7 +73,6 @@ strong {
 }
 
 .nav-item a:hover {
-    padding: 10px;
     background-color: #ff6600;
 }
 

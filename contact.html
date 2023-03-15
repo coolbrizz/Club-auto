@@ -14,44 +14,42 @@
     <body>
         <header id="mainHeader">
             <div class="container-fluid">
-                <div class="row topNav p-4">
-                    <div class="col-lg-4 col-md-12 fw-bold h1">CLUB AUTO</H1></div>
-                    <div class="col-lg-2 d-none d-lg-block"><img src="/images/icone-adresse.png" alt="logo adresse" id="logoAdresse"><strong>ADRESSE : </strong></br>AVENUE CHARLES DE GAULLE</BR>75000 PARIS</div>
-                    <div class="col-lg-2 col-md-12 fw-bold "><img src="/images/icon-telephone.png" alt="logo Téléphone" id="logoTelephone"><strong>TELEPHONE : </strong></br> 01 23 45 67 89 </div>
-                    <div class="col-lg-2 d-none d-lg-block fw-bold "><strong>OUVERTURE :</strong>  Du Lundi au Samedi </br><strong>HORAIRES :</strong>  De 9h à 17h</div>
+                <div class="row topNav p-1 pt-4 pb-4">
+                    <div class="col-lg-3 col-md-12 font-weight-bold h1">CLUB AUTO</H1></div>
+                    <div class="col-lg-3 d-none d-lg-block"><img src="/images/icone-adresse.png" alt="logo adresse" id="logoAdresse"><strong>ADRESSE : </strong></br>AVENUE CHARLES DE GAULLE</BR>75000 PARIS</div>
+                    <div class="col-lg-2 col-md-12 font-weight-bold "><img src="/images/icon-telephone.png" alt="logo Téléphone" id="logoTelephone"><strong>TELEPHONE : </strong></br> 01 23 45 67 89 </div>
+                    <div class="col-lg-2 d-none d-lg-block font-weight-bold"><strong>OUVERTURE :</strong>  Du Lundi au Samedi </br><strong>HORAIRES :</strong>  De 9h à 17h</div>
                     <div class="col-lg-2 d-none d-lg-block"><a href="#" class="fa fa-facebook"></a> <a href="#" class="fa -brands fa-twitter"></a></div>
                 </div>
              </div>
-             <nav class="mainNav">
+             <nav class="container-fluid p-0 mainNav">
                 <div class="backgroundAccueil"> 
                     <nav class="navbar col-12 navbar-expand-lg navbar-light ">
-                        <div class="container-fluid offset-xl-6 offset-md-2 d-none d-lg-block">
+                        <div class="container-fluid offset-xl-6 offset-md-2 d-none d-lg-block p-2">
                             <ul class="navbar-nav">
                                 <li class="nav-item col-2">
-                                <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
+                                <a class="nav-link text-dark" href="/index.html">Accueil</a>
                               </li>
                               <li class="nav-item col-2">
-                                <a class="nav-link" href="/Vente.html">Vente</a>
+                                <a class="nav-link text-dark" href="/Vente.html">Vente</a>
                               </li>
                               <li class="nav-item col-2">
-                                <a class="nav-link" href="/location.html">Location</a>
+                                <a class="nav-link text-dark" href="/location.html">Location</a>
                               </li>
                               <li class="nav-item col-2">
-                                <a class="nav-link" href="/contact.html">Contact</a>
+                                <a class="nav-link text-dark" href="/contact.html">Contact</a>
                               </li>
                             </ul>
                         </div>
                       </nav>  
                 </div>         
             </nav>
-                <div class="container-fluid p-4">
-                    <div class="row justify-content-center">
-                        <div class="contact col-md-8 col-sm-12 border-1 bg-white ">
+                    <div class="row  justify-content-center">
+                        <div class="contact col-md-8  border-1 bg-white ">
                             <h1 class="h2 fw-bold text-dark pt-5 pb-2 px-3">CONTACTEZ-NOUS</h1>
-                            <form class="">
                                 <div class="container-fluid d-inline-flex justify-content-around">
-                                    <div class="p-3">                     
-                                        <div class="form-group  p-2 ">
+                                    <div class="col-md-3 p-3">                     
+                                        <div class="form-group   p-2 ">
                                             <label for="Fname" class="pb-2"><span class=" text-dark">Prénom*</span></label>
                                             <input type="text required" class="form-control fname" id="fname" placeholder="Entrez votre prénom" required>
                                         </div>
@@ -60,7 +58,7 @@
                                             <input type="text" class="form-control lname" id="lname" placeholder="Entrez votre nom" required>
                                         </div>
                                     </div>               
-                                    <div class="p-3">
+                                    <div class="col-md-3 p-3">
                                         <div class="form-group p-2">
                                             <label for="email" class="pb-2"><span class="text-dark">Email*</span></label>
                                             <input type="email" class="form-control email" id="email" placeholder="Entrez une adresse mail " required>
@@ -70,7 +68,7 @@
                                             <input type="text" class="form-control tel" id="tel" placeholder="Phone number"required>
                                         </div>
                                     </div>                                       
-                                    <div class="p-3">
+                                    <div class="col-md-6 col-lg-4  p-3">
                                         <fieldset>
                                             <legend class="text-dark ">Votre message</legend>
                                             <div class="form-group pt-3">
@@ -79,15 +77,12 @@
                                             </div>
                                         </fieldset>
                                     </div>
-
                                 </div>  
                                 <div class="bouton text-center py-3 pt-4">
                                     <button type="submit" class="btn px-5 py-2 btn-primary">ENVOYER</button>
                                 </div>  
-                            </form>
                         </div>
-                    </div>
-                </div>               
+                    </div>          
             </nav>
             
         </header>
